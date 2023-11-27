@@ -2797,7 +2797,7 @@
           var o;
           //   for (n = 0, r = k.length; n < r; n++)
           //     (o = k[n]), o.addEventListener("click", d);
-          setInterval(d, 1000);
+          setInterval(d, 3000);
           Y.addEventListener("click", u),
             Y.addEventListener("mouseenter", s),
             q.addEventListener("click", p),
