@@ -2735,8 +2735,10 @@
           //     (e = z[t]), (e.quality = t), e.addEventListener("click", l);
           l(0);
 
-          //   var particleContext = N.getContext("2d");
-          //   particleContext.fillStyle = "rgba(0, 0, 0, 0)";
+          console.log("sss", N);
+        //   var particleContext = N.getContext("2d");
+        //   particleContext.fillStyle = "rgba(0, 0, 0, 0)";
+        //   console.log(particleContext);
           //   for (
           //     P.style.display = "block",
           //       M.set(L, {
@@ -2795,7 +2797,7 @@
           var o;
           //   for (n = 0, r = k.length; n < r; n++)
           //     (o = k[n]), o.addEventListener("click", d);
-          setInterval(d, 5000);
+          setInterval(d, 2000);
           Y.addEventListener("click", u),
             Y.addEventListener("mouseenter", s),
             q.addEventListener("click", p),
