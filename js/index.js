@@ -2907,7 +2907,8 @@
         }
         function d() {
           //   var e = this.classList.contains("is-left") ? -1 : 1;
-          H = Math.round(Math.random() * 4);
+          // H = Math.round(Math.random() * 4);
+          H = 0;
           //   var t = b.clamp(H + e, 0, V.length - 1);
           var t = b.clamp(H, 0, V.length - 1);
           //   if (t !== H) {
