@@ -2927,13 +2927,13 @@
             r * Math.sin(o),
             r * Math.sin(i) * Math.cos(o)
           );
-          var a = T.camera.position.distanceTo(Q);
-          M.to(T.camera.position, 1.5 + a / 1e3, {
-            x: Q.x,
-            y: Q.y,
-            z: Q.z,
-            ease: "easeInOutQuint",
-          });
+          // var a = T.camera.position.distanceTo(Q);
+          // M.to(T.camera.position, 1.5 + a / 1e3, {
+          //   x: Q.x,
+          //   y: Q.y,
+          //   z: Q.z,
+          //   ease: "easeInOutQuint",
+          // });
           //   }
         }
         function p() {
